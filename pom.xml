@@ -8,11 +8,36 @@
     <artifactId>arsenal</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <dependencies>
+   <dependencies>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>3.0.1</version>
+        </dependency>
         <dependency>
             <groupId>commons-configuration</groupId>
             <artifactId>commons-configuration</artifactId>
             <version>1.9</version>
+        </dependency>
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.17</version>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.6</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.ant</groupId>
+            <artifactId>ant</artifactId>
+            <version>1.8.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>com.springsource.org.apache.commons.fileupload</artifactId>
+            <version>1.2.1</version>
         </dependency>
         <dependency>
             <groupId>org.mortbay.jetty</groupId>
